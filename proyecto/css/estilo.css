@@ -1,0 +1,42 @@
+.card-text1 {
+    color: #ffffff;
+    background-color: #C51111;
+    font-weight: normal;
+    padding: 0rem 0.25rem 1px;
+    display: inline
+}
+
+.body-registro {
+    background-color: grey;
+}
+
+.form-registro {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-registro .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-registro .form-control:focus {
+    z-index: 2;
+}
+
+.form-registro input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
